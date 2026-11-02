@@ -1,0 +1,23 @@
+# Install CPU torch first on machines without CUDA:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+ultralytics>=8.3.100
+albumentations          # spec 2.2 grayscale/blur augmentations during training
+opencv-contrib-python
+numpy
+scipy
+scikit-image
+pillow
+pyyaml
+tqdm
+requests
+# dataset tooling
+imagehash
+icrawler
+open_clip_torch
+kornia                  # LoFTR matcher for Day1<->Day2 frame pairing
+# remote training
+kaggle
+# tests
+pytest

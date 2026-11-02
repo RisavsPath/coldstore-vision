@@ -1,0 +1,58 @@
+{
+  "run": "20261026_182058",
+  "seconds": 791.0,
+  "detector": "C:\\erxr\\ipa svp cv\\coldstore_vision\\models\\weights\\best.pt",
+  "inputs": {
+    "1": {
+      "mode": "video",
+      "source": "C:\\erxr\\ipa svp cv\\coldstore_vision\\footage\\day1\\IMG_3866.MOV (Polycam export present but not used; pass --prefer-lidar to use it)",
+      "poses": false,
+      "depth_frames": 0,
+      "trim_s": [
+        9.8,
+        15.3
+      ],
+      "trimmed_frames": 165
+    },
+    "2": {
+      "mode": "video",
+      "source": "C:\\erxr\\ipa svp cv\\coldstore_vision\\footage\\day2\\IMG_3939.MOV",
+      "poses": false,
+      "depth_frames": 0,
+      "trim_s": [
+        9.8,
+        16.97
+      ],
+      "trimmed_frames": 216
+    }
+  },
+  "notes": "Onion stack only (t>=9.8s both days). Day 2 = IMG_3939.MOV",
+  "keyframes": {
+    "day1": 11,
+    "day2": 15,
+    "pairs": 10
+  },
+  "kpis": {
+    "total_monitored": 22,
+    "status_counts": {
+      "UNVERIFIED": 13,
+      "NORMAL": 4,
+      "WARNING": 4,
+      "MISSING": 1
+    },
+    "missing": 1,
+    "new": 0,
+    "net_inventory_change": -1,
+    "facility_health_index": 75.0,
+    "urgent_actions": 1,
+    "unverified": 13
+  },
+  "outputs": {
+    "anomaly_video": "outputs\\onion_day1_vs_day2\\anomaly_video.mp4",
+    "side_by_side": "outputs\\onion_day1_vs_day2\\side_by_side.mp4",
+    "manifest": "outputs\\onion_day1_vs_day2\\manifest.json",
+    "audit_report": "outputs\\onion_day1_vs_day2\\audit_report.html",
+    "digital_twin": "outputs\\onion_day1_vs_day2\\rack_digital_twin.html",
+    "panoramic_slider": "outputs\\onion_day1_vs_day2\\panoramic_slider.html"
+  }
+}

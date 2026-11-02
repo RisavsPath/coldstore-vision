@@ -1,0 +1,34 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Large or private inputs (footage of a real site, scraped images, packaged datasets)
+footage/
+data/
+build/
+
+# Downloaded models (fetched automatically) and the ONNX export; best.pt is kept
+models/hub/
+models/weights/best.onnx
+*.pt
+!models/weights/best.pt
+
+# Run outputs, except the sample result
+outputs/*
+!outputs/onion_day1_vs_day2/
+
+# Explainer video: keep the source, not the renders
+video/blender/frames/
+video/blender/*.blend
+video/blender/*.blend1
+video/blender/*.log
+video/renders/
+
+# Generated when the documents are rebuilt
+docs/se/*.html
+docs/se/figs/
+
+# Local assistant settings
+.claude/

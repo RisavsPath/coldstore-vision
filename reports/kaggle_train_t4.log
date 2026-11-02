@@ -1,0 +1,59 @@
+risavprasad/coldstore-sacks-seg-t4 has status "KernelWorkerStatus.RUNNING"
+risavprasad/coldstore-sacks-seg-t4 has status "KernelWorkerStatus.RUNNING"
+risavprasad/coldstore-sacks-seg-t4 has status "KernelWorkerStatus.RUNNING"
+risavprasad/coldstore-sacks-seg-t4 has status "KernelWorkerStatus.RUNNING"
+risavprasad/coldstore-sacks-seg-t4 has status "KernelWorkerStatus.RUNNING"
+risavprasad/coldstore-sacks-seg-t4 has status "KernelWorkerStatus.COMPLETE"
+kaggle kernels output risavprasad/coldstore-sacks-seg-t4 -p C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4 failed:
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/BoxF1_curve.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/BoxPR_curve.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/BoxP_curve.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/BoxR_curve.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/MaskF1_curve.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/MaskPR_curve.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/MaskP_curve.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/MaskR_curve.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/args.yaml
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/confusion_matrix.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/confusion_matrix_normalized.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/labels.jpg
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/results.csv
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/results.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/train_batch0.jpg
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/train_batch1.jpg
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/train_batch2.jpg
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/val_batch0_labels.jpg
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/val_batch0_pred.jpg
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/weights/best.mlpackage/Data/com.apple.CoreML/model.mlmodel
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/weights/best.mlpackage/Data/com.apple.CoreML/weights/weight.bin
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/weights/best.mlpackage/Manifest.json
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/weights/best.onnx
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/weights/best.pt
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\coldstore_seg/yolo11s_sack/weights/last.pt
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\dataset_resolved.yaml
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\runs/segment/val/BoxF1_curve.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\runs/segment/val/BoxPR_curve.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\runs/segment/val/BoxP_curve.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\runs/segment/val/BoxR_curve.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\runs/segment/val/MaskF1_curve.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\runs/segment/val/MaskPR_curve.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\runs/segment/val/MaskP_curve.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\runs/segment/val/MaskR_curve.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\runs/segment/val/confusion_matrix.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\runs/segment/val/confusion_matrix_normalized.png
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\runs/segment/val/val_batch0_labels.jpg
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\runs/segment/val/val_batch0_pred.jpg
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\weights/yolo26n.pt
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\weights_out.zip
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\weights_out/best.mlpackage/Data/com.apple.CoreML/model.mlmodel
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\weights_out/best.mlpackage/Data/com.apple.CoreML/weights/weight.bin
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\weights_out/best.mlpackage/Manifest.json
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\weights_out/best.onnx
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\weights_out/best.pt
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\weights_out/metrics.json
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\weights_out/results.csv
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\yolo11n.pt
+Output file downloaded to C:\erxr\ipa svp cv\coldstore_vision\build\kaggle\output\coldstore-sacks-seg-t4\yolo11s-seg.pt
+
+'charmap' codec can't encode character '\u2705' in position 98: character maps to <undefined>
+

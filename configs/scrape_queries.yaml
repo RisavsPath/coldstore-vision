@@ -1,0 +1,93 @@
+# Web image scraping queries for the sack dataset.
+# produce: onion | potato | garlic | generic  (stored as produce_hint in the manifest)
+# Per-source caps keep the raw pool at roughly 3-4k images before dedup.
+per_query_max:
+  openverse: 60
+  wikimedia: 40
+  bing: 80
+  baidu: 80
+
+# Openverse / Wikimedia match every keyword, so long queries return nothing there: they get short ones.
+cc_queries:
+  - {q: "potato sacks", produce: potato}
+  - {q: "sacks of potatoes", produce: potato}
+  - {q: "potato bags", produce: potato}
+  - {q: "potato storage", produce: potato}
+  - {q: "onion sacks", produce: onion}
+  - {q: "onion bags", produce: onion}
+  - {q: "sacks of onions", produce: onion}
+  - {q: "onion market", produce: onion}
+  - {q: "garlic sacks", produce: garlic}
+  - {q: "garlic bags", produce: garlic}
+  - {q: "garlic market", produce: garlic}
+  - {q: "jute sacks", produce: generic}
+  - {q: "gunny bags", produce: generic}
+  - {q: "burlap sacks", produce: generic}
+  - {q: "stacked sacks", produce: generic}
+  - {q: "sacks warehouse", produce: generic}
+  - {q: "sack pile", produce: generic}
+  - {q: "grain sacks", produce: generic}
+  - {q: "cold storage", produce: generic}
+  - {q: "pallet rack", produce: generic}
+
+queries:
+  # --- potato: jute / gunny / burlap ---
+  - {q: "potato sacks stacked cold storage", produce: potato}
+  - {q: "potato jute bags warehouse", produce: potato}
+  - {q: "potato gunny bags stack", produce: potato}
+  - {q: "cold storage potato bags India", produce: potato}
+  - {q: "aloo bori cold storage", produce: potato}
+  - {q: "potato bags pallet warehouse", produce: potato}
+  - {q: "sacks of potatoes market pile", produce: potato}
+  # --- onion: red/orange leno mesh ---
+  - {q: "onion mesh bags stacked warehouse", produce: onion}
+  - {q: "onion sacks storage", produce: onion}
+  - {q: "red mesh onion bags pile", produce: onion}
+  - {q: "onion bags cold storage", produce: onion}
+  - {q: "onion leno bags stacked", produce: onion}
+  - {q: "pyaz bori godown", produce: onion}
+  - {q: "onion sacks market", produce: onion}
+  # --- garlic: white / net mesh ---
+  - {q: "garlic mesh bags stacked", produce: garlic}
+  - {q: "garlic sacks warehouse", produce: garlic}
+  - {q: "garlic net bags storage", produce: garlic}
+  - {q: "garlic bags market pile", produce: garlic}
+  # --- generic stacked sacks / racks / empty slots ---
+  - {q: "gunny bags godown stacked", produce: generic}
+  - {q: "burlap sacks stacked warehouse", produce: generic}
+  - {q: "jute sacks pile", produce: generic}
+  - {q: "sacks on pallet rack warehouse", produce: generic}
+  - {q: "cold storage warehouse racks bags", produce: generic}
+  - {q: "agricultural produce sacks storage", produce: generic}
+  - {q: "grain sacks stacked warehouse", produce: generic}
+  - {q: "empty pallet rack bay warehouse", produce: generic}
+
+# second round: more India-specific Bing queries (already-seen URLs are skipped)
+extra_queries:
+  - {q: "potato cold storage India bags stacked inside", produce: potato}
+  - {q: "cold storage chamber potato bags Agra", produce: potato}
+  - {q: "potato bags cold store Punjab", produce: potato}
+  - {q: "aloo cold storage bags", produce: potato}
+  - {q: "onion godown Nashik bags", produce: onion}
+  - {q: "Lasalgaon onion storage bags", produce: onion}
+  - {q: "onion mandi bags pile", produce: onion}
+  - {q: "onion bags truck loading India", produce: onion}
+  - {q: "garlic mandi bags", produce: garlic}
+  - {q: "garlic bags warehouse stacked", produce: garlic}
+  - {q: "gunny bags stack warehouse India", produce: generic}
+  - {q: "jute bags stacking FCI godown", produce: generic}
+  - {q: "pp woven sacks stacked warehouse", produce: generic}
+  - {q: "sacks stored on pallets warehouse aisle", produce: generic}
+
+# Baidu: Chinese cold stores use the same woven / mesh / jute sacks
+baidu_queries:
+  - {q: "冷库 土豆 编织袋 堆放", produce: potato}
+  - {q: "土豆 麻袋 仓库", produce: potato}
+  - {q: "马铃薯 冷库 储存 袋", produce: potato}
+  - {q: "洋葱 网袋 堆放", produce: onion}
+  - {q: "洋葱 冷库 网袋", produce: onion}
+  - {q: "大蒜 网袋 冷库", produce: garlic}
+  - {q: "大蒜 网袋 堆放 仓库", produce: garlic}
+  - {q: "麻袋 堆垛 仓库", produce: generic}
+  - {q: "编织袋 堆垛 仓库", produce: generic}
+  - {q: "冷库 货架 袋装", produce: generic}

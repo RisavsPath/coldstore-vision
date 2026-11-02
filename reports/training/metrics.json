@@ -1,0 +1,17 @@
+{
+  "mask_map50": 0.7968781902358577,
+  "mask_map50_95": 0.5312731793593609,
+  "mask_precision": 0.798102781980482,
+  "mask_recall": 0.7665615141955836,
+  "box_map50": 0.8010351974933289,
+  "per_class_mask_map50_95": {
+    "sack": 0.5312731793593609,
+    "rack_beam": 0.5312731793593609,
+    "empty_slot": 0.5312731793593609
+  },
+  "gate": {
+    "map50_required": 0.85,
+    "precision_required": 0.8,
+    "passed": false
+  }
+}

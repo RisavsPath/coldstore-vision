@@ -1,0 +1,8 @@
+path: C:/erxr/ipa svp cv/coldstore_vision/data/dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: sack
+  1: rack_beam
+  2: empty_slot
